@@ -1,393 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/index/style.css">
-    <link rel="stylesheet" href="./css/Bootstrap/bootstrap-5.3.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/logo/image/logo-optiflow-technology.png" type="image/x-icon">
-    <title id="title"></title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    <title>Optiflow Technology</title>
 </head>
+
 <body class="text-bg-dark">
-
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+<nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid">
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="d-flex fs-1">
-                <span class="ps-2">
-                    Menù
-                </span>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white border-0">
+                <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/list-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
             </span>
         </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Abbonamenti</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/columns-gap-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Prodotti</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Servizio Clienti</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Carrello</span>
 
-        <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
-                        Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-white.svg" class="bi d-lg-block mx-auto mt-sm-2 my-sm-2 mb-1 img-list-nav" width="32" alt="">
-                        Abbonamenti
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/person-circle-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Profilo</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/columns-gap-white.svg" class="bi d-lg-block mx-auto mt-sm-2 my-sm-2 mb-1 img-list-nav" width="32" alt="">
-                        Prodotti
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/person-circle-white.svg" class="bi d-lg-block mx-auto mt-sm-2 my-sm-2 mb-1 img-list-nav" width="32" alt="">
-                        Profilo
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-white.svg" class="bi d-lg-block mx-auto mt-sm-2 my-sm-2 mb-1 img-list-nav" width="32" alt="">
-                        Assistenza
+                    <a class="nav-link active" aria-current="page" href="./.html">
+                        <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" class="d-sm-none bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" width="32" alt="">
+                        <span class="d-lg-none ps-2 text-white">Accedi</span>
                     </a>
                 </li>
             </ul>
-            <form role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            </form>
         </div>
     </div>
 </nav>
-
-
-<!--<header>
-    <div class="px-3 py-2">
-        <div class="">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="./index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <img class="bi me-2" width="32" height="32" role="img" aria-label="Bootstrap" src="./assets/logo/image/logo-optiflow-technology.png  " alt="">
-                </a>
-
-                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                        <a href="./index.html" class="nav-link text-light a-list-nav text-center">
-                            <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" class="bi d-block mx-auto mb-1 img-list-nav" width="75rem" alt="">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-light">
-                            <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-white.svg" class="bi d-block mx-auto mb-1 img-list-nav" width="75rem" alt="">
-                            Abbonamenti
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-light">
-                            <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/columns-gap-white.svg" class="bi d-block mx-auto mb-1 img-list-nav" width="75rem" alt="">
-                            Prodotti
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-light">
-                            <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/person-circle-white.svg" class="bi d-block mx-auto mb-1 img-list-nav" width="75rem" alt="">
-                            Profilo
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-light">
-                            <img src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-white.svg" class="bi d-block mx-auto mb-1 img-list-nav" width="75rem" alt="">
-                            Assistenza
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="px-3 py-2 border-bottom mb-3">
-        <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-            </form>
-
-            <div class="text-end">
-                <button type="button" class="btn btn-outline-dark text-dark me-2">Login</button>
-                <button type="button" class="btn btn-dark">Sign-up</button>
-            </div>
-        </div>
-    </div>
-</header>-->
-
-
-<main class="mx-auto">
-    <div class="px-4 py-5 my-5 text-center mx-auto">
-        <img class="d-block mx-auto mb-4" src="./assets/logo/image/logo-optiflow-technology.png" alt="Preview non disponibile" width="256">
-        <h1 class="display-5 fw-bold">
-            OPTIFLOW TECHNOLOGY
-        </h1>
+<br>
+<br>
+<main>
+    <br>
+    <div class="py-5 my5 text-center container">
+        <img class="d-block mx-auto mb-4" src="./assets/logo/image/logo-optiflow-technology.png" alt="" width="350" height="350">
+        <h1 class="col-lg-6 mx-auto"><strong>OPTIFLOW TECHNOLOGY</strong></h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">
-                Quickly design and customize responsive mobile-first sites with Bootstrap,
-                the world’s most popular front-end open source toolkit,
-                featuring Sass variables and mixins,
-                responsive grid system,
-                extensive prebuilt components,
-                and powerful JavaScript plugins.
+            <p class="lead mb-4">La <strong>più comoda</strong>. La <strong>più veloce</strong>. Il miglior configuratore di computer online
             </p>
-            <div class="gap-5 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-light btn-lg px-4 gap-3" style="width: fit-content">
-                    About us
-                </button>
-                <button type="button" class="btn btn-outline-light btn-lg px-4 d-inline" style="width: fit-content">
-                    FAQs
-                </button>
-            </div>
         </div>
     </div>
-
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mx-auto">
-            <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-                <img src="./assets/img/image/img-socio.png" class="d-block mx-lg-auto img-fluid rounded-5" alt="Preview non disponibile" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">
-                    Diventa Socio!
-                </h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
-                        Vuoi unirti?
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">
-            Abbonamenti
-        </h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-                <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-                </div>
+    <br>
+    <div class="container px-4" id="featured-4">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="feature col text-center">
                 <div>
-                    <h3 class="fs-2">Standard</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-light">
-                        Scopri di più
+                    <img src="./img/ico/mouse_kayboard.png" width="100em" height="100em" alt="">
+                </div>
+                <h2>Interessi</h2>
+                <p>Hai bisogni di avere chiaro che tipo di attività vuoi fare con il computer, perchè la scelta delle componenti dipende molto da ciò</p>
+            </div>
+            <div class="feature col text-center">
+                <div>
+                    <img src="./img/ico/about_us.png" width="100em" height="100em" alt="">
+                </div>
+                <h2>About Us</h2>
+                <p>Siamo un team di presone qualificate che lavorano per creare dei computer che soddisfino ogni tipo di richiesta da parte di un cliente</p>
+            </div>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
+            <div class="feature col text-center">
+                <div>
+                    <img src="./img/ico/pc_config.png" width="100em" height="100em" alt="">
+                </div>
+                <h2>Configurazione di un Computer</h2>
+                <p>Significa acegliere le migliori componenti per un computer, in base al prezzo, alle prestazioni e la qualità</p>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="feature col text-center py-5">
+                <div class="py-3">
+                    <a href="https://www.intel.it/content/www/it/it/homepage.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/img/brands/intel.png" width="100em" height="100em" alt="">
                     </a>
                 </div>
+                <p>
+                    AMD Ryzen&#8482; EPYC&#8482; Athlon&#8482; Phenom&#8482; A-series&#8482;
+                </p>
             </div>
-            <div class="col d-flex align-items-start">
-                <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-                </div>
-                <div>
-                    <h3 class="fs-2">Premium</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-light">
-                        Scopri di più
+            <div class="feature col text-center py-5">
+                <div class="py-3">
+                    <a href="https://www.amd.com/en" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/img/brands/amd.png" width="100em" height="100em" alt="">
                     </a>
                 </div>
+                <p>
+                    Intel Pentium&#8482; Celeron&#8482; Xeon&#8482; Core&#8482; EPYC&#8482;
+                </p>
             </div>
-            <div class="col d-flex align-items-start">
-                <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-                </div>
-                <div>
-                    <h3 class="fs-2">Unlimited</h3>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="btn btn-light">
-                        Scopri di più
+            <div class="feature col text-center py-5">
+                <div class="py-3">
+                    <a href="https://www.nvidia.com/it-it/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/img/brands/nvidia.png" width="100em" height="100em" alt="">
                     </a>
                 </div>
+                <p>
+                    Nvidia GeForce&#8482; RTX&#8482; Quadro&#8482; NVS&#8482;
+                </p>
             </div>
-        </div>
-    </div>
-
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-        <div class="row align-items-center g-lg-5 py-5">
-            <div class="col-lg-7 text-center text-lg-start">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Registrati</h1>
-                <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-            </div>
-            <div class="col-md-10 mx-auto col-lg-5">
-                <form class="p-4 p-md-5 border text-center rounded-3 text-bg-light">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
-                    </div>
-                    <div class="checkbox text-start mb-3">
-                        <label>
-                            <input type="checkbox" value="remember-me"> Remember me
-                        </label>
-                    </div>
-                    <button class="w-100 btn btn-lg btn-dark mb-3" type="submit">Invia</button>
-                    <a class="mx-auto text-center text-dark text-decoration-none" href="#">Accedi</a>
-                    <hr class="my-3">
-                    <small class="text-muted">Premendo Invio, si accettano i
-                        <a href="#" class="text-dark">termini di utilizzo</a>
-                        </small>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="container my-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center shadow-lg">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <button type="button" class="btn btn-light btn-lg px-4 me-md-2 fw-bold">Primary</button>
-                    <button type="button" class="btn btn-outline-light btn-lg px-4">Default</button>
+            <div class="feature col text-center py-5">
+                <div class="py-3">
+                    <a href="https://www.amd.com/en" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/img/brands/radeon.png" width="100em" height="100em" alt="">
+                    </a>
                 </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="bootstrap-docs.png" alt="Preview non disponibile" width="720">
-            </div>
-        </div>
-    </div>
-
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-        <h1 class="display-4 fw-bold">1.000.000 di vendite</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-light btn-lg px-4 me-sm-3">Abbonamenti</button>
-                <button type="button" class="btn btn-outline-light btn-lg px-4">Prodotti</button>
-            </div>
-        </div>
-        <div class="overflow-hidden" style="max-height: 30vh;">
-            <div class="container px-5">
-                <img src="./assets/img/image/grafico-vendite.png" class="img-fluid rounded-3 shadow-lg mb-4" alt="Preview non disponibile" width="700" height="500" loading="lazy">
+                <p>
+                    AMD Radeon&#8482;
+                </p>
             </div>
         </div>
     </div>
 </main>
-<footer class="container py-5">
-    <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        About</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        About</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Features</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        Pricing</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-light">
-                        About</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                    <label for="newsletter1" class="visually-hidden">Email address</label>
-                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                    <button class="btn btn-light" type="button">Subscribe</button>
-                </div>
-            </form>
-        </div>
+<footer class="d-flex flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-3 d-flex align-items-center px-3">
+        <a href="./index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img src="./img/img/logo/Screenshot_20220825-191126234_1.jpg" alt="" width="30" height="30"
+                 class="d-inline-block align-text-top img_logo_footer">
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Computer e Console</span>
     </div>
-
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-            <li class="ms-3">
-                <a class="link-dark" href="#">
-                    <img class="bi" width="24" height="24" src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" alt="">
-                </a>
-            </li>
-            <li class="ms-3">
-                <a class="link-dark" href="#">
-                    <img class="bi" width="24" height="24" src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" alt="">
-                </a>
-            </li>
-            <li class="ms-3">
-                <a class="link-dark" href="#">
-                    <img class="bi" width="24" height="24" src="./assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" alt="">
-                </a>
-            </li>
-        </ul>
+    <ul class="nav col-md-3 justify-content-end list-unstyled d-flex px-3">
+        <li class="ms-3">
+            <a class="text-muted" href="#instagram">
+                <img class="bi" width="30" height="30" src="./img/ico/social_media/instagram_icon.svg">
+            </a>
+        </li>
+        <li class="ms-3">
+            <a class="text-muted" href="#facebook">
+                <img class="bi" width="30" height="30" src="./img/ico/social_media/facebook_icon.svg">
+            </a>
+        </li>
+        <li class="ms-3">
+            <a class="text-muted" href="#youtube">
+                <img class="bi" width="30" height="30" src="./img/ico/social_media/youtube_icon.svg">
+            </a>
+        </li>
+        <li class="ms-3">
+            <a class="text-muted" href="#twich">
+                <img class="bi" width="30" height="30" src="./img/ico/social_media/twitch_icon.svg">
+            </a>
+        </li>
+    </ul>
+    <div class="col-md-3 d-flex align-items-center px-3">
+        <a href="https://www.iubenda.com/privacy-policy/14699870" class="mb-3 me-2 mb-md-0 text-muted lh-1 text-center iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
     </div>
 </footer>
+
 </body>
-<script src="./js/app-index.js"></script>
-<script src="./js/Bootstrap/bootstrap-5.3.js"></script>
-<script src="./js/JQuery/jquery-3.6.3.js"></script>
+
 </html>
