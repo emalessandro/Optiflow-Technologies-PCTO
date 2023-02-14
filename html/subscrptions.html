@@ -92,13 +92,20 @@
 <main class="p-3 text-dark text-center">
     <br>
     <br class="my-lg-5 my-md-5 p-3">
-    <h1 class="my-3 text-light mx-auto">Abbonamenti</h1>
+    <div class="bg-light my-5 py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-dark">
+                <h1 class="display-4 fw-bolder">ABBONAMENTI</h1>
+                <p class="lead fw-normal text-50 mb-0">STANDARD, DELUXE, PREMIUM, ULTIMATE</p>
+            </div>
+        </div>
+    </div>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
+        <div class="col" id="planStandard">
             <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
                     <h4 class="my-0 fw-normal">
-                        Free
+                        Standard
                     </h4>
                 </div>
                 <div class="card-body">
@@ -128,11 +135,11 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col" id="deluxe">
             <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
                     <h4 class="my-0 fw-normal">
-                        Pro
+                        Deluxe
                     </h4>
                 </div>
                 <div class="card-body">
@@ -162,11 +169,11 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-light">
-                <div class="card-header py-3">
+        <div class="col" id="planPremium">
+            <div class="card mb-4 rounded-3 shadow-sm border-light border-2">
+                <div class="card-header py-3 text-bg-dark">
                     <h4 class="my-0 fw-normal">
-                        Enterprise
+                        Premium
                     </h4>
                 </div>
                 <div class="card-body">
@@ -196,10 +203,44 @@
                 </div>
             </div>
         </div>
+        <div class="col mx-auto" id="planUltimate">
+            <div class="card mb-4 rounded-3 shadow-sm border-light border-2 text-bg-dark">
+                <div class="card-header border-bottom border-light py-3">
+                    <h4 class="my-0 fw-normal">
+                        Ultimate
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">
+                        $59
+                        <small class="text-muted fw-light">
+                            /mo
+                        </small>
+                    </h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>
+                            30 users included
+                        </li>
+                        <li>
+                            15 GB of storage
+                        </li>
+                        <li>
+                            Phone and email support
+                        </li>
+                        <li>
+                            Help center access
+                        </li>
+                    </ul>
+                    <button class="w-100 btn btn-lg btn-light" type="button">
+                        Get started
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <h2 class="display-6 text-center mb-4">
-        Compare plans
+        Confronto degli abbonamenti
     </h2>
 
     <div class="table-responsive text-light">
@@ -210,21 +251,28 @@
 
                 </th>
                 <th style="width: 22%;">
-                    Free
+                    Standard
                 </th>
                 <th style="width: 22%;">
-                    Pro
+                    Deluxe
                 </th>
                 <th style="width: 22%;">
-                    Enterprise
+                    Premium
+                </th>
+                <th style="width: 22%;">
+                    Ultimate
                 </th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <th class="text-start" scope="row">
-                    Public
+                    Dati pubblici
                 </th>
+                <td>
+                    <img class="bi" height="24"
+                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
+                </td>
                 <td>
                     <img class="bi" height="24"
                          src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
@@ -240,14 +288,16 @@
             </tr>
             <tr>
                 <th class="text-start" scope="row">
-                    Private
+                    Dati privati
                 </th>
                 <td>
 
                 </td>
                 <td>
-                    <img class="bi" height="24"
-                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
+
+                </td>
+                <td>
+
                 </td>
                 <td>
                     <img class="bi" height="24"
@@ -259,8 +309,30 @@
             <tbody>
             <tr>
                 <th class="text-start" scope="row">
-                    Permissions
+                    Extra rapporto
                 </th>
+                <td>
+
+                </td>
+                <td>
+                    <img class="bi" height="24"
+                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <img class="bi" height="24"
+                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
+                </td>
+            </tr>
+            <tr>
+                <th class="text-start" scope="row">
+                    Condivisione
+                </th>
+                <td>
+
+                </td>
                 <td>
                     <img class="bi" height="24"
                          src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
@@ -276,45 +348,17 @@
             </tr>
             <tr>
                 <th class="text-start" scope="row">
-                    Sharing
-                </th>
-                <td>
-
-                </td>
-                <td>
-                    <img class="bi" height="24"
-                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
-                </td>
-                <td>
-                    <img class="bi" height="24"
-                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
-                </td>
-            </tr>
-            <tr>
-                <th class="text-start" scope="row">
-                    Unlimited members
-                </th>
-                <td>
-
-                </td>
-                <td>
-                    <img class="bi" height="24"
-                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
-                </td>
-                <td>
-                    <img class="bi" height="24"
-                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
-                </td>
-            </tr>
-            <tr>
-                <th class="text-start" scope="row">
-                    Extra security
+                    Extra sicurezza
                 </th>
                 <td>
 
                 </td>
                 <td>
 
+                </td>
+                <td>
+                    <img class="bi" height="24"
+                         src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/check-white.svg" width="24">
                 </td>
                 <td>
                     <img class="bi" height="24"
