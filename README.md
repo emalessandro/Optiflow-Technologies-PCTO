@@ -1,3 +1,3 @@
-# Optiflow-Technology-PCTO
+# Optiflow-Technologies-PCTO
 
-Web Site for Optiflow Technology corporation
+Web Site for Optiflow Technologies corporation
