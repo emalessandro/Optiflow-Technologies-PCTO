@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="../assets/logo/image/logo-optiflow-technology.png" rel="shortcut icon" type="image/x-icon">
+    <link href="../assets/logo/image/optiflowLOGO.svg" rel="shortcut icon" type="image/x-icon">
     <!-- Boostrap CSS -->
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" rel="stylesheet">
@@ -20,87 +20,98 @@
 
 <body class="text-bg-dark">
 
-<nav class="navbar navbar-expand-md bg-dark fixed-top">
+<nav class="navbar navbar-expand-md bg-light fixed-top">
     <div class="container-fluid">
         <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler border-0"
                 data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
             <span class="text-white border-0">
                 <img alt=""
-                     class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/list-white.svg" width="32">
+                     class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                     src="../assets/img/vector/bootstrap-icons-1.10.3/list.svg" width="32">
             </span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavHome').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/house-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavHome').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg';">
+                    onmouseleave="document.getElementById('imgNavHome').src = '../assets/img/vector/bootstrap-icons-1.10.3/house.svg';"
+                    onmouseover="document.getElementById('imgNavHome').src = '../assets/img/vector/bootstrap-icons-1.10.3/house-fill.svg';">
                     <a aria-current="page" class="nav-link active" href="../index.html">
-                        <img alt="" id="imgNavHome"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/house-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Home</span>
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavHome"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/house.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Home</span>
                     </a>
                 </li>
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavSubscriptions').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavSubscriptions').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-white.svg';">
-                    <a aria-current="page" class="nav-link active" href="../html/subscrptions.html">
-                        <img alt="" id="imgNavSubscriptions"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/wallet-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Abbonamenti</span>
+                    onmouseleave="document.getElementById('imgNavSubscriptions').src = '../assets/img/vector/bootstrap-icons-1.10.3/wallet.svg';"
+                    onmouseover="document.getElementById('imgNavSubscriptions').src = '../assets/img/vector/bootstrap-icons-1.10.3/wallet-fill.svg';">
+                    <a aria-current="page" class="nav-link active" href="./html/subscrptions.html">
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavSubscriptions"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/wallet.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Abbonamenti</span>
                     </a>
                 </li>
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavProducts').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/grid-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavProducts').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/grid-white.svg';">
-                    <a aria-current="page" class="nav-link active" href="../html/prodotti.html">
-                        <img alt="" id="imgNavProducts"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/grid-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Prodotti</span>
+                    onmouseleave="document.getElementById('imgNavProducts').src = '../assets/img/vector/bootstrap-icons-1.10.3/grid.svg';"
+                    onmouseover="document.getElementById('imgNavProducts').src = '../assets/img/vector/bootstrap-icons-1.10.3/grid-fill.svg';">
+                    <a aria-current="page" class="nav-link active" href="./html/prodotti.html">
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavProducts"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/grid.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Prodotti</span>
                     </a>
                 </li>
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavClientservice').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavClientservice').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-white.svg';">
+                    onmouseleave="document.getElementById('imgNavClientservice').src = '../assets/img/vector/bootstrap-icons-1.10.3/telephone.svg';"
+                    onmouseover="document.getElementById('imgNavClientservice').src = '../assets/img/vector/bootstrap-icons-1.10.3/telephone-fill.svg';">
                     <a aria-current="page" class="nav-link active" href="">
-                        <img alt="" id="imgNavClientservice"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/telephone-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Servizio Clienti</span>
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavClientservice"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/telephone.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Servizio Clienti</span>
                     </a>
                 </li>
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavCart').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/cart-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavCart').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/cart-white.svg';">
+                    onmouseleave="document.getElementById('imgNavCart').src = '../assets/img/vector/bootstrap-icons-1.10.3/cart.svg';"
+                    onmouseover="document.getElementById('imgNavCart').src = '../assets/img/vector/bootstrap-icons-1.10.3/cart-fill.svg';">
                     <a aria-current="page" class="nav-link active" href="">
-                        <img alt="" id="imgNavCart"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/cart-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Carrello</span>
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavCart"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/cart.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Carrello</span>
 
                     </a>
                 </li>
                 <li class="nav-item"
-                    onmouseover="document.getElementById('imgNavProfile').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-vcard-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavProfile').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-vcard-white.svg';">
-                    <a aria-current="page" class="nav-link active" href="../html/profilo.html">
-                        <img alt="" id="imgNavProfile"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-vcard-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Profilo</span>
+                    onmouseleave="document.getElementById('imgNavProfile').src = '../assets/img/vector/bootstrap-icons-1.10.3/person-vcard.svg';"
+                    onmouseover="document.getElementById('imgNavProfile').src = '../assets/img/vector/bootstrap-icons-1.10.3/person-vcard-fill.svg';">
+                    <a aria-current="page" class="nav-link active" href="./profilo.html">
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavProfile"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/person-vcard.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Profilo</span>
                     </a>
                 </li>
                 <li class="nav-item" id="myLink"
-                    onmouseover="document.getElementById('imgNavLogin').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-fill-white.svg';"
-                    onmouseleave="document.getElementById('imgNavLogin').src = '../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-white.svg';">
-                    <a aria-current="page" class="nav-link active" href="../html/login.html">
-                        <img alt="" id="imgNavLogin"
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/person-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Accedi</span>
+                    onmouseleave="document.getElementById('imgNavLogin').src = '../assets/img/vector/bootstrap-icons-1.10.3/person.svg';"
+                    onmouseover="document.getElementById('imgNavLogin').src = '../assets/img/vector/bootstrap-icons-1.10.3/person-fill.svg';">
+                    <a aria-current="page" class="nav-link active" href="./login.html">
+                        <img alt="" class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             id="imgNavLogin"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/person.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Accedi</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link active" href="../html/notizie.html">
+                <li class="nav-item"
+                    onmouseleave="document.getElementById('').src = '../assets/img/vector/bootstrap-icons-1.10.3/newspaper.svg';"
+                    onmouseover="document.getElementById('').src = '../assets/img/vector/bootstrap-icons-1.10.3/newspaper-fill.svg';">
+                    <a aria-current="page" class="nav-link active" href="./notizie.html">
                         <img alt=""
-                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav" src="../assets/img/vector/bootstrap-icons-1.10.3-white-used/newspaper-white.svg" width="32">
-                        <span class="d-lg-none d-md-none ps-2 text-white">Notizie</span>
+                             class="bi d-lg-block mx-auto mt-sm-4 my-sm-2 mb-1 img-list-nav"
+                             src="../assets/img/vector/bootstrap-icons-1.10.3/newspaper.svg" width="32">
+                        <span class="d-lg-none d-md-none ps-2 text-black">Notizie</span>
                     </a>
                 </li>
             </ul>
