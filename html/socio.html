@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="overflow-x-hidden">
+<html class="overflow-x-hidden" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -118,34 +118,73 @@
     </div>
 </nav>
 
-<br>
-
-<main>
+<main class="">
     <br>
-    <div class="modal modal-signin position-static d-block py-5" id="modalSignin" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content rounded-4 shadow text-dark">
-                <div class="modal-header p-5 pb-4 border-bottom-0">
-                    <h3 class="display-4 fw-bold d-inline-block p-2">Accedi</h3>
-                    <a class=" p-2 text-dark" href="./registrazione.html">
-                        Registrati
-                    </a>
-                </div>
-                <div class="modal-body p-5 pt-0">
-                    <form class="">
-                        <div class="form-floating mb-3">
-                            <input class="form-control rounded-3" id="floatingInput" placeholder="name@example.com"
-                                   type="email">
-                            <label for="floatingInput">Indirizzo email</label>
+    <br class="my-lg-5 my-md-5 p-3">
+    <div class="bg-light py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-dark">
+                <h1 class="display-4 fw-bolder">DIVENTA SOCIO</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row text-black m-3">
+        <div class="text-light container py-5 col">
+            <h4>Come posso diventare socio?</h4>
+            <p>
+                Diventare un nostro socio è facilissimo: basta allegare il vostro CV (Curriculum Vitae) e
+                attendere l'esito dell'accettazione, se l'esito sarà positivo sarà necessario versare una
+                quota
+                sociale di €25. E se in futuro vorrai disdire la tua associazione a Optiflow Technologies,
+                verrà restituita, come previsto dallo statuto, la quota sociale tramite bonifico o assegno
+                entro i sei mesi
+                successivi all’approvazione del bilancio.
+            </p>
+            <br>
+            <h4>Che vantaggi ci sono?</h4>
+            <p>
+                Una volta associato si ha la possibilità di partecipare alle scelte del futuro della nostra
+                cooperativa votando alle elezioni della cooperativa. Inoltre potrai avere degli omaggi su
+                servizi e prodotti.
+            </p>
+            <br>
+            <h4>Contatta per maggiori informazioni</h4>
+            <a class="text-light" href="mailto:support.optiflowtechnologies@gmail.com">support.optiflowtechnologies@gmail.com</a>
+        </div>
+        <div class="container py-5 col">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                    <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                        <div class="card-body p-4 p-md-5 pb-2 mb-4 pb-md-0 mb-md-5">
+                            <h3 class="display-4 fw-bold d-inline-block p-2">Unisciti!</h3>
+                            <a class=" m-2 text-dark" href="./login.html">
+                                Accedi
+                            </a>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 pb-2">
+                                        <div class="form-outline form-floating">
+                                            <input class="form-control rounded-3" id="emailInput"
+                                                   placeholder="name@example.com"
+                                                   type="email">
+                                            <label for="emailInput">Email address</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="mb-4 pb-2">
+                                        <div class="form-outline form-floating">
+                                            <input class="form-control rounded-3" id="cvInput"
+                                                   type="file">
+                                            <label class="p-2" for="cvInput">CV</label>
+                                        </div>
+                                    </div>
+                                <div class="mt-4 pt-2">
+                                    <input class="btn btn-dark btn-lg" type="submit" value="Invio"/>
+                                </div>
+                                <small class="text-muted">Non appena la tua richiesta sarà esaminata, riceverai un'email con l'esito.</small>
+                            </form>
                         </div>
-                        <div class="form-floating mb-3">
-                            <input class="form-control rounded-3" id="floatingPassword" placeholder="Password"
-                                   type="password">
-                            <label for="floatingPassword">Password</label>
-                        </div>
-                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-dark" type="submit">Accedi</button>
-                        <small class="text-muted">Accedendo accetti i termini e le condizioni d'uso.</small>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
